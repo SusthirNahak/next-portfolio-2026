@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import CodeEditor from "@/components/three/CodeEditor";
-import FloatingSphere from "@/components/three/FloatingSphere";
+// import FloatingSphere from "@/components/three/FloatingSphere";
 import FloatingSocials from "@/components/effects/FloatingSocials";
 import MagneticButton from "@/components/effects/MagneticButton";
 import MouseGlow from "@/components/effects/MouseGlow";
@@ -17,9 +17,9 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-black via-[#020617] to-[#020617]" />
 
       {/* FLOATING SPHERE */}
-      <div className="absolute right-[-150px] bottom-[-150px] w-[600px] h-[600px] opacity-40 pointer-events-none">
+      {/* <div className="absolute right-[-150px] bottom-[-150px] w-[600px] h-[600px] opacity-40 pointer-events-none">
         <FloatingSphere />
-      </div>
+      </div> */}
 
       {/* SOCIAL LINKS */}
       <FloatingSocials />
